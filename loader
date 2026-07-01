@@ -1,7 +1,5 @@
 print(game.GameId)
-local game = game.GameId
-
-if game == 6508759464 then
+if game.GameId == 6508759464 then
     -- its grace
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FloralHub/FloralHub/refs/heads/main/Grace/main.luau"))()
 else
